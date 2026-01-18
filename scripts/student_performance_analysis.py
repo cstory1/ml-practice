@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 linear_regression = LinearRegression()
 
 # Download latest version
-path = 'StudentPerformance.csv'
+path = '../data/StudentPerformance.csv'
 df = pd.read_csv(path)
 
 X = df[["Hours Studied", "Previous Scores", "Sleep Hours",
